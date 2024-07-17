@@ -2,6 +2,9 @@
 from database import create_connection
 import hashlib
 
+#cursor = self.connection.cursor() - This line creates a cursor object, which is used to interact with the database and execute queries.
+#hashed_password = hashlib.sha256(password.encode()).hexdigest() - This line creates a hashed version of the provided password.
+
 class Auth:
     def __init__(self):
         self.connection = create_connection()

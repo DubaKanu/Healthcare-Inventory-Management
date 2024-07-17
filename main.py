@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from inventory import Inventory
+import time
 
 class InventoryApp:
     def __init__(self):
@@ -49,6 +50,9 @@ class InventoryApp:
                 self.inventory.delete_item(item_id)
                 print("Item deleted successfully.")
             elif choice == '5':
+                print("Closing application...")
+                time.sleep(2)
+                print("Goodbye!")
                 self.inventory.close()
                 break
             else:

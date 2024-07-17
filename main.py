@@ -7,12 +7,15 @@ class InventoryApp:
         self.inventory = Inventory()
 
     def display_menu(self):
+        print()
         print("Healthcare Inventory Management System")
         print("1. Add Item")
         print("2. View Inventory")
         print("3. Update Item")
         print("4. Delete Item")
         print("5. Exit")
+        print()
+        
 
     def get_item_details(self):
         name = input("Enter item name: ")

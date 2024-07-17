@@ -23,6 +23,7 @@ class InventoryApp:
         print("=" * 50)
 
     def display_menu(self):
+<<<<<<< HEAD
         self.clear_screen()
         self.print_header("Healthcare Inventory Management System")
         if not self.current_user:
@@ -39,6 +40,18 @@ class InventoryApp:
             print("6. Generate Reports")
             print("7. Logout")
             print("8. Exit")
+=======
+        print()
+        print("Healthcare Inventory Management System")
+        print()
+        print("1. Add Item")
+        print("2. View Inventory")
+        print("3. Update Item")
+        print("4. Delete Item")
+        print("5. Exit")
+        print()
+        
+>>>>>>> a37cb582318b48a97aea79ec5621b8af8ddc4184
 
     def get_item_details(self):
         name = input("Enter item name: ")

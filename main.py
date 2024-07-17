@@ -39,16 +39,6 @@ class InventoryApp:
             print("6. Generate Reports")
             print("7. Logout")
             print("8. Exit")
-=======
-        print()
-        print("Healthcare Inventory Management System")
-        print()
-        print("1. Add Item")
-        print("2. View Inventory")
-        print("3. Update Item")
-        print("4. Delete Item")
-        print("5. Exit")
-        print()
 
     def get_item_details(self):
         name = input("Enter item name: ")

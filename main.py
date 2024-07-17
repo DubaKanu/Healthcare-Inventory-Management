@@ -9,6 +9,7 @@ class InventoryApp:
     def display_menu(self):
         print()
         print("Healthcare Inventory Management System")
+        print()
         print("1. Add Item")
         print("2. View Inventory")
         print("3. Update Item")

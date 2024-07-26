@@ -1,5 +1,22 @@
 from database import create_connection
 
+# The Item class represents an item in inventory.
+# Attributes:
+# - item_id (int/str): A unique identifier for the item.
+# - name (str): The name of the item.
+# - quantity (int): The number of units available in inventory.
+# - supplier (str): The name of the supplier providing the item.
+# - expiry_date (datetime/date/str): The expiry date of the item, if applicable.
+
+class Item:
+    def __init__(self, item_id, name, quantity, supplier, expiry_date):
+        # Initialize the attributes of the Item class with the provided values.
+        self.item_id = item_id
+        self.name = name
+        self.quantity = quantity
+        self.supplier = supplier
+        self.expiry_date = expiry_date
+
 class Item:
     def __init__(self, item_id, name, quantity, supplier, expiry_date):
         self.item_id = item_id
